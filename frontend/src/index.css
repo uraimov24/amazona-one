@@ -13,6 +13,7 @@ body {
 #root {
   height: 100%;
 }
+
 /* Layout */
 .grid-container {
   display: grid;
@@ -46,6 +47,7 @@ h2 {
   font-size: 1.6rem;
   padding: 1rem 0;
 }
+
 a {
   text-decoration: none;
 }
@@ -127,6 +129,7 @@ a.brand {
 .min-30 {
   min-width: 30rem;
 }
+
 /* Image */
 img {
   border-radius: 0.5rem;
@@ -142,6 +145,7 @@ img.medium {
 img.large {
   width: 100%;
 }
+
 /* Card */
 .card {
   border: 0.1rem #c0c0c0 solid;
@@ -167,6 +171,9 @@ img.large {
   color: #404040;
 }
 /* Alert */
+.loading {
+  display: block !important;
+}
 .success {
   color: #20a020;
 }
